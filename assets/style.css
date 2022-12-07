@@ -1,0 +1,22 @@
+body {
+  margin: 0 auto;
+  max-width: 1024px;
+  color: #1d1d1d;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+  color: #00846a;
+}
+
+.keyboard-input {
+  font-size: 1.6rem;
+  width: 100%;
+  min-height: 20ch;
+  resize: none;
+  color: #1d1d1d;
+}
+
+.keyboard-input:focus-visible {
+  outline: #00846a auto 1px;
+}
